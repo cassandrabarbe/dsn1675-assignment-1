@@ -111,7 +111,17 @@ strong{
   font-weight: bold;
 }
 
-img {
+.notbanner {
   width: 100%;
   padding: 1em;
+}
+
+.nav2{
+  text-decoration:none;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  list-style-type: none;
 }
