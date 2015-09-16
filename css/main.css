@@ -6,13 +6,112 @@ html{
   box-sizing:inherit;
 }
 
+body{
+  margin: 0;
+}
+
 h1{
-  font-family: 'Pacifico', cursive;
+  font-family: 'Roboto', sans serif;
   color: black;
-  font-size: 2.5em;
+  font-size: 3em;
+  margin: 0;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 0em;
+  text-align: center;
+}
+
+nav{
+width: 100%;
+margin: 0;
+}
+
+nav ol{
+   color: white;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+ }
+
+ nav li{
+   float: left;
+   margin: 0;
+   text-align:center;
+   width: 25%;
+   list-style: none;
+ }
+
+ nav a{
+ display: block;
+ color: white;
+ text-decoration: none;
+ font-family: 'Roboto', sans-serif;
+ font-size: 1em;
+ padding-left: 0.5em;
+ padding-right: 0.5em;
+ text-align: center;
+ background-color: orange ;
+ padding:0.74em;
+ position: relative;
+ z-index: 1;
+ margin: 3px;
+}
+
+nav a:hover{
+  color: white;
+  background-color: red;
+}
+
+ol li{
+text-decoration: none;
+}
+
+h2{
+  font-family: 'Roboto', sans serif;
+  color: black;
+  font-size: 1.5em;
   margin: 0;
   padding-top: 0.25em;
   padding-bottom: 0.25em;
   padding-left: 1em;
   text-align: center;
+}
+
+h3{
+  font-family: 'Roboto', sans serif;
+  color: black;
+  font-size: 1em;
+  margin: 0;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  padding-left: 1em;
+  text-align: left;
+}
+
+.banner{
+  width: 100%;
+}
+
+figure{
+  padding: 0;
+  margin: 0;
+}
+
+figcaption{
+  font-family: 'roboto', sans serif;
+  color: white;
+  font-size: 1em;
+  position: absolute;
+  top: 28%;
+  text-align: center;
+  width: 100%;
+}
+
+strong{
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+  padding: 1em;
 }
