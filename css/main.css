@@ -146,11 +146,21 @@ li{
 }
 
 .1{
-  float: left;
-  color: red;
+  padding:0;
+  margin:0;
 }
 
 .2{
-  float:left;
-  padding-left: 4rem;
+  padding:0;
+  margin:0;
+}
+
+.3{
+  padding:0;
+  margin:0;
+}
+
+dd{
+  margin:0;
+  padding: 0;
 }
