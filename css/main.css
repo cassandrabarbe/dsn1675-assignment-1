@@ -13,12 +13,21 @@ body{
 h1{
   font-family: 'Roboto', sans serif;
   color: black;
-  font-size: 3em;
+  font-size: 2.3em;
   margin: 0;
   padding-top: 0em;
   padding-bottom: 0em;
   padding-left: 0em;
   text-align: center;
+}
+
+.masthead{
+  background-image: url("../image/logo.svg");
+  padding-top: 3em;
+  background-repeat:no-repeat;
+  background-position: right 20%;
+  display: block;
+  padding-bottom: 3.3em;
 }
 
 nav{
@@ -138,12 +147,12 @@ li{
 
 .2{
   width: 33.3%;
-  float:left;
+  float:right;
 }
 
 .3{
   width: 33.3%;
-  float:left;
+  float:right;
 }
 
 dd{
