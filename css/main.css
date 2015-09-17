@@ -130,3 +130,22 @@ li{
   list-style-type:none;
   text-decoration: none;
 }
+
+.1{
+  width: 33.3%;
+  float:left;
+}
+
+.2{
+  width: 33.3%;
+  float:left;
+}
+
+.3{
+  width: 33.3%;
+  float:left;
+}
+
+dd{
+  margin:0;
+}
