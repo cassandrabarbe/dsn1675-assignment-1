@@ -23,11 +23,12 @@ h1{
 
 .masthead{
   background-image: url("../image/logo.svg");
-  padding-top: 3em;
+  padding-top: 1em;
   background-repeat:no-repeat;
-  background-position: right 20%;
+  background-position: left 20%;
   display: block;
-  padding-bottom: 3.3em;
+  padding-bottom: 0em;
+  background-size: 10%;
 }
 
 nav{
@@ -140,21 +141,16 @@ li{
   text-decoration: none;
 }
 
+.wrapper{
+  display:inline-block;
+}
+
 .1{
-  width: 33.3%;
-  float:left;
+  float: left;
+  color: red;
 }
 
 .2{
-  width: 33.3%;
-  float:right;
-}
-
-.3{
-  width: 33.3%;
-  float:right;
-}
-
-dd{
-  margin:0;
+  float:left;
+  padding-left: 4rem;
 }
