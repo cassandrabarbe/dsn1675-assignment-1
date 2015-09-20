@@ -141,23 +141,27 @@ li{
   text-decoration: none;
 }
 
-.wrapper{
-  display:inline-block;
-}
 
-.1{
+.date{
   padding:0;
   margin:0;
+  float: left;
+  width: 33.3%;
+  text-align: center;
 }
 
-.2{
+.builders{
   padding:0;
   margin:0;
+  float: left;
+  width: 33.3%;
 }
 
-.3{
+.location{
   padding:0;
   margin:0;
+  float: left;
+  width: 33.3%;
 }
 
 dd{
