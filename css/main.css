@@ -294,6 +294,11 @@ footer {
 
 h4 {
   margin-bottom: 0;
+  text-align: center;
+}
+
+.center{
+  text-align: center;
 }
 
 nav ul {
