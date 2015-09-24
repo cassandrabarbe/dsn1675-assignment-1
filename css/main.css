@@ -94,6 +94,10 @@ figure{
   padding: 0;
 }
 
+.buy-tickets{
+  padding: 0;
+}
+
 h2{
   font-family: 'Roboto', sans serif;
   color: black;
@@ -285,6 +289,7 @@ footer {
   padding-left: 0.5em;
   padding-right: 0.5em;
   padding-top: 0.3em;
+  clear: both;
 }
 
 h4 {
@@ -343,4 +348,30 @@ nav ul {
   ol li{
   text-decoration: none;
   }
+}
+
+@media only screen and (min-width: 50em) {
+.masthead{
+  float: left;
+  width: 35%;
+}
+main{
+  float: right;
+  width: 65%;
+}
+
+nav{
+width: 100%;
+margin: 0;
+display: inline-block;
+}
+
+nav li{
+margin: 0;
+text-align:center;
+width: 100%;
+list-style: none;
+}
+
+
 }
