@@ -282,6 +282,9 @@ ol {
 footer {
   color: white;
   background-color: #ffc000;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.3em;
 }
 
 h4 {
@@ -295,6 +298,49 @@ nav ul {
 
 
 
-@media only screen and (min-width: 26.9em) {
+@media only screen and (min-width: 28em) {
+  nav{
+  width: 100%;
+  margin: 0;
+  }
 
+  nav ol{
+     color: white;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+   }
+
+   nav li{
+     margin: 0;
+     text-align:center;
+     width: 25%;
+     list-style: none;
+     float: left;
+   }
+
+   nav a{
+   display: block;
+   color: white;
+   text-decoration: none;
+   font-family: 'Roboto', sans-serif;
+   font-size: 0.7em;
+   padding-left: 0em;
+   padding-right: 0em;
+   text-align: center;
+   background-color: orange ;
+   padding:0.74em;
+   position: relative;
+   z-index: 1;
+   margin: 3px;
+  }
+
+  nav a:hover{
+    color: white;
+    background-color: red;
+  }
+
+  ol li{
+  text-decoration: none;
+  }
 }
