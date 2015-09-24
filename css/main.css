@@ -58,10 +58,9 @@ nav ol{
  }
 
  nav li{
-   float: left;
    margin: 0;
    text-align:center;
-   width: 25%;
+   width: 100%;
    list-style: none;
  }
 
@@ -267,27 +266,6 @@ ol {
   padding-left: 0.5rem;
   padding-bottom: 1rem;
   margin: 0;
-}
-.date{
-  padding:0;
-  margin:0;
-  float: left;
-  width: 33.3%;
-  text-align: center;
-}
-
-.builders{
-  padding:0;
-  margin:0;
-  float: left;
-  width: 33.3%;
-}
-
-.location{
-  padding:0;
-  margin:0;
-  float: left;
-  width: 33.3%;
 }
 
 .days {
