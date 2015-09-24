@@ -18,6 +18,7 @@ html {
 body{
   padding: 0;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .logo {
@@ -26,42 +27,107 @@ body{
   left: 37%;
   padding-top: 0.5rem;
 }
+.masthead{
+  background-image: url("../image/logo.svg");
+  padding-top: 1em;
+  background-repeat:no-repeat;
+  background-position: left 20%;
+  display: block;
+  padding-bottom: 0em;
+  background-size: 10%;
+}
 
 h1 {
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   margin: 0;
   list-style-type: none;
   clear: both;
 }
 
-nav ol {
-  list-style-type: none;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-  background-color: #797a7d;
+nav{
+width: 100%;
+margin: 0;
 }
 
-nav li {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+nav ol{
+   color: white;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+ }
+
+ nav li{
+   float: left;
+   margin: 0;
+   text-align:center;
+   width: 25%;
+   list-style: none;
+ }
+
+ nav a{
+ display: block;
+ color: white;
+ text-decoration: none;
+ font-family: 'Roboto', sans-serif;
+ font-size: 1em;
+ padding-left: 0.5em;
+ padding-right: 0.5em;
+ text-align: center;
+ background-color: orange ;
+ padding:0.74em;
+ position: relative;
+ z-index: 1;
+ margin: 3px;
 }
 
-nav a {
-  text-decoration: none;
-  padding: 0.5em;
-  margin: 0em;
-  font-size: 1rem;
-  font-weight: 700;
+nav a:hover{
   color: white;
-  width: 25%;
+  background-color: red;
 }
 
-nav li:hover {
-  background-color: #9899cb;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+ol li{
+text-decoration: none;
 }
+
+figure{
+  margin:0;
+  padding: 0;
+}
+
+h2{
+  font-family: 'Roboto', sans serif;
+  color: black;
+  font-size: 1.5em;
+  margin: 0;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  padding-left: 1em;
+  text-align: center;
+}
+
+.banner{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.banner-1{
+  background-image: url("../image/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  color: white;
+  padding: 3em 0;
+}
+
+strong{
+  font-weight: bold;
+}
+
 
 img {
   width: 100%;
@@ -85,14 +151,24 @@ img {
 
 dl {
   margin-top: 0;
-  margin-left: 0.5rem;
+  margin-left: 0rem;
   margin-bottom: 0;
+}
+
+dd{
+  margin:0;
+}
+
+dt{
+  margin: 0;
 }
 
 h3 {
 margin-bottom: 0;
 padding-bottom: 0.5em;
 margin-top: 0;
+font-weight:bold;
+font-size: 2em;
 }
 
 .location, dd {
@@ -105,15 +181,15 @@ margin-top: 0;
   margin-bottom: 3.7rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  width: 75%;
+  width: 100%;
   text-align: center;
-  background-color:  #9899cb;
+  background-color: #ffc000;
   color: white;
   text-decoration: none;
 }
 
 .learn-more:hover {
-  background-color: #797a7d;
+  background-color: red;
 }
 
 h2 {
@@ -130,20 +206,20 @@ h2 {
 
 .cost {
   float: left;
-  width: 25%;
+  width: 100%;
   text-align: center;
   padding: 0.75em;
-  background-color:  #797a7d;
+  background-color: red;
   color: white;
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   text-decoration: none;
 }
 
 .cost:hover {
-  background-color: #9899cb;
+  background-color: #ffc000;
 }
 
 .tickets {
@@ -174,7 +250,7 @@ padding-bottom: 0.5em;
 }
 
 .see-show-times {
-  background-color: #9899cb;
+  background-color: red;
   text-decoration: none;
   color: white;
   padding: 0.25em;
@@ -192,6 +268,27 @@ ol {
   padding-bottom: 1rem;
   margin: 0;
 }
+.date{
+  padding:0;
+  margin:0;
+  float: left;
+  width: 33.3%;
+  text-align: center;
+}
+
+.builders{
+  padding:0;
+  margin:0;
+  float: left;
+  width: 33.3%;
+}
+
+.location{
+  padding:0;
+  margin:0;
+  float: left;
+  width: 33.3%;
+}
 
 .days {
   margin: 0;
@@ -206,7 +303,7 @@ ol {
 
 footer {
   color: white;
-  background-color: #797a7d;
+  background-color: #ffc000;
 }
 
 h4 {
@@ -218,336 +315,8 @@ nav ul {
   margin: 0;
 }
 
-.dont-care {
-}
+
 
 @media only screen and (min-width: 26.9em) {
-  nav ol {
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-    background-color: #797a7d;
-    display: block;
-  }
 
-  nav li {
-    float: left;
-    width: 50%;
-    text-align: center;
-    padding: 0.75em;
-    border-right: 1px solid white;
-    border-bottom: 1px solid white;
-  }
-
-  ol li {
-    display: block;
-    width: 50%;
-  }
-
-  nav a {
-    text-decoration: none;
-    padding: 0.5em;
-    margin: 0em;
-    font-size: 1rem;
-    font-weight: 700;
-    color: white;
-    width: 50%;
-  }
-
-  nav li:hover {
-    background-color: #9899cb;
-    padding: 0.75em;
-    width: 50%;
-  }
-
-  .first-figcaption {
-    position: absolute;
-    overflow: hidden;
-    top: 40%;
-    color: white;
-    width: 100%;
-    text-align: center;
-    background-color: none;
-  }
-
-  .helen {
-  padding-bottom: 2.5em;
-  background-color: #797a7d;
-  }
-
-}
-
-@media only screen and (min-width: 37.5em) {
-body{
-  padding: 0;
-  margin: 0;
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: 0;
-  list-style-type: none;
-}
-
-.buy {
-  float: left;
-  position: absolute;
-  top: 2%;
-  right: 4%;
-  text-decoration: none;
-  background-color: #9899cb;
-  color: white;
-  padding: 0.75em;
-}
-
-.buy:hover {
-  background-color: #797a7d;
-}
-
-nav ol {
-  list-style-type: none;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-  background-color: #797a7d;
-}
-
-nav li {
-  float: left;
-  width: 25%;
-  text-align: center;
-  padding: 0.75em;
-}
-
-nav a {
-  text-decoration: none;
-  padding: 0.75em;
-  margin: 0em;
-  font-size: 1rem;
-  font-weight: 700;
-  color: white;
-  width: 25%;
-}
-
-nav li:hover {
-  background-color: #9899cb;
-  padding: 0.75em;
-  width: 25%;
-}
-
-.second-h2 {
-  padding-bottom: 1rem;
-  padding-top: 2rem;
-}
-
-.helen {
-padding-bottom: 2.5em;
-background-color: #797a7d;
-}
-
-.first-figcaption {
-  position: absolute;
-  overflow: hidden;
-  top: 30%;
-  color: white;
-  width: 100%;
-  text-align: center;
-}
-
-h2 {
-  text-align: center;
-  margin: 0;
-  width: 100%;
-}
-
-img {
-  width: 100%;
-}
-
-.seven-wonders {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-p {
-  margin: 0;
-}
-
-.date {
-  float: left;
-  text-align: center;
-  width: 33%;
-  margin-left: 0.12rem;
-}
-
-.builders {
-  float: left;
-  text-align: center;
-  width: 33%;
-}
-
-.location {
-  float: left;
-  text-align: center;
-  width: 33%;
-}
-
-.learn-more {
-  float: left;
-  margin-top: 1rem;
-  margin-bottom: 3.7rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  width: 100%;
-  text-align: center;
-  background-color:  #9899cb;
-  color: white;
-  text-decoration: none;
-}
-
-.learn-more:hover {
-  background-color: #797a7d;
-}
-
-dd {
-  margin: 0;
-}
-
-dl {
-  margin: 0;
-}
-
-h3 {
-margin-bottom: 0;
-padding-bottom: 0.5em;
-margin-left: 2rem;
-margin-top: 0;
-}
-
-.member {
-  text-align: center;
-  margin-bottom: 0;
-}
-
-.cost {
-  float: left;
-  width: 25%;
-  text-align: center;
-  padding: 0.75em;
-  background-color:  #797a7d;
-  color: white;
-  margin-left: 5rem;
-  margin-right: 4rem;
-  margin-top: 1rem;
-  text-decoration: none;
-}
-
-.cost:hover {
-  background-color: #9899cb;
-}
-
-.tickets {
-  text-align: center;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.now-playing {
-  margin-top: 9rem;
-  padding-bottom: 1rem;
-}
-
-.second-photo{
-  position: relative;
-}
-
-.sp {
-text-align: center;
-position: absolute;
-bottom: 20%;
-color: white;
-background-color: black;
-overflow: hidden;
-width: 100%;
-background-color: rgba(121, 122, 125, 0.5);
-padding-top: 0.5em;
-padding-bottom: 0.5em;
-}
-
-.sp p {
-  padding-bottom: 0.5em;
-}
-
-.see-show-times {
-  background-color: #9899cb;
-  text-decoration: none;
-  color: white;
-  padding: 0.25em;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-}
-
-.atlantis {
-  padding-bottom: 2em;
-}
-
-ol ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-ol {
-  padding-left: 1rem;
-  padding-bottom: 1rem;
-  margin: 0;
-}
-
-.days {
-  margin: 0;
-  padding-bottom: 0.25em;
-  padding-top: 0.75em;
-}
-
-footer {
-  color: white;
-  background-color: #797a7d;
-}
-
-.info {
-  float: left;
-  width: 100%;
-  padding-left: 2rem;
-}
-
-h4 {
-  margin: 0;
-  padding-top: 1em;
-  padding-left: 2rem;
-}
-
-.info-1 {
-  padding-left: 2rem;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-
-.bottom {
-  float: left;
-  width: 100%;
-  background-color: #797a7d;
-  font-size: 0.85rem;
-  font-weight: 500;
-  padding: 0;
-  padding-left: 2rem;
-}
-
-ol ul {
-  margin-left: 2rem;
-}
 }
