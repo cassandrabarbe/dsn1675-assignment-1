@@ -31,7 +31,7 @@ body{
   padding-top: 0.5rem;
 }
 .masthead{
-  background-image: url("../image/logo.svg");
+  background-image: url("../images/logo.svg");
   padding-top: 1em;
   background-repeat:no-repeat;
   background-position: left 20%, top 60%;
@@ -119,7 +119,7 @@ h2{
 }
 
 .banner-1{
-  background-image: url("../image/banner.jpg");
+  background-image: url("../images/banner.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
